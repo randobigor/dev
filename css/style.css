@@ -1,0 +1,96 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#particles-js {
+    z-index: 1;
+    position: absolute;
+    height: 100vh !important;
+    width: 98vw !important;
+    margin: 0 !important;
+}
+
+header {
+    background-color: #252934;
+    /* #1d252f */
+    max-height: 100vh !important;
+    height: 100vh !important;
+    position: relative;
+    z-index: 2;
+}
+
+header .intro {
+    z-index: 3;
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 40vh;
+    text-align: center;
+    color: white;
+}
+
+.intro a:hover {
+    text-decoration: none;
+}
+
+.intro a:hover kbd {
+    color: #3498db;
+}
+
+header .intro .highlight {
+    color: #e74c3c;
+}
+
+#about {
+    height: 100vh;
+    background: rgb(37, 41, 52);
+    background: linear-gradient(180deg, rgba(37, 41, 52, 1) 22%, rgb(39, 56, 85) 100%);
+    padding-top: 10rem;
+    /* border: 1px solid red; */
+}
+
+#about .card {
+    /* border: 2px solid red; */
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+#about .card .angular-logo img {
+    transition: .3s ease-out;
+}
+
+#about .card:hover .angular-logo img {
+    margin-top: -1rem;
+    margin-bottom: +1rem;
+    transition: .3s ease-out;
+}
+
+.angular-logo {
+    margin-top: -6rem;
+}
+
+#works {
+    left: 0;
+    /* height: 100vh; */
+    min-height: 100vh;
+    padding-top: 3rem;
+    background: rgb(39, 56, 85);
+    background: linear-gradient(180deg, rgba(39, 56, 85, 1) 22%, rgba(32, 121, 163, 1) 100%);
+}
+
+#about a:hover {
+    text-decoration: none;
+}
+
+#about a:hover kbd {
+    color: #3498db !important;
+}
