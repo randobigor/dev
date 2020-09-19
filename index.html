@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RandoB dev.</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/">
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,24 +27,26 @@
     </header>
 
     <div id="about" class="text-center">
-        <div class="card m-auto" style="width: 30rem;">
-            <div class="card-img-top angular-logo text-center">
-                <img src="assets/img/angular-logo.png" alt="" style="max-width: 18rem;">
+        <div class="container">
+            <div class="card m-auto" style="max-width: 30rem;">
+                <div class="card-img-top angular-logo text-center">
+                    <img src="assets/img/angular-logo.png" alt="" style="max-width: 18rem; width: 100%;">
+                </div>
+                <div class="card-body">
+                    Mostly I'm an <strong>Angular</strong> frontend developer. <br> <strong>BUT</strong> I have experience in other technologies.
+                </div>
             </div>
-            <div class="card-body">
-                Mostly I'm an <strong>Angular</strong> frontend developer. <br> <strong>BUT</strong> I have experience in other technologies.
+            <div class="mt-4">
+                <a href="#works"><kbd>>sudo i-am-interested --continue</kbd></a>
             </div>
-        </div>
-        <div class="mt-4">
-            <a href="#works"><kbd>>sudo i-am-interested --continue</kbd></a>
         </div>
     </div>
 
     <div id="works">
         <div class="container">
             <div class="row">
-                <div class="col text-right"><img src="assets/img/angular-work.png" alt="" style="max-width: 35rem; width: 100%;"></div>
-                <div class="col">
+                <div class="col-sm-6 text-right"><img src="assets/img/angular-work.png" alt="" style="max-width: 35rem; width: 100%;"></div>
+                <div class="col-sm-6">
                     <div class="h3 text-light font-weight-light">Angular web development</div>
                     <p class="h5 text-light font-weight-light">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda fugiat odio inventore neque rem alias facere, amet totam velit sit exercitationem quas, eos minus omnis! Omnis inventore nostrum suscipit consectetur.
@@ -46,9 +54,9 @@
                 </div>
             </div>
             <div class="row" style="margin-top: 10rem;">
-                <div class="col text-right"><img src="assets/img/android-work.png" alt="" style="max-width: 35rem; width: 100%;"></div>
-                <div class="col">
-                    <div class="h3 text-light font-weight-light">Angular web development</div>
+                <div class="col-sm-6 text-right"><img src="assets/img/android-work.png" alt="" style="max-width: 35rem; width: 100%;"></div>
+                <div class="col-sm-6">
+                    <div class="h3 text-light font-weight-light">Mobile development</div>
                     <p class="h5 text-light font-weight-light">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda fugiat odio inventore neque rem alias facere, amet totam velit sit exercitationem quas, eos minus omnis! Omnis inventore nostrum suscipit consectetur.
                     </p>
