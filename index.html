@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RandoB dev.</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -28,7 +29,7 @@
 
     <div id="about" class="text-center">
         <div class="container">
-            <div class="card m-auto" style="max-width: 30rem;">
+            <div class="card m-auto " style="max-width: 30rem;">
                 <div class="card-img-top angular-logo text-center">
                     <img src="assets/img/angular-logo.png" alt="" style="max-width: 18rem; width: 100%;">
                 </div>
@@ -44,28 +45,36 @@
 
     <div id="works">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6 text-right"><img src="assets/img/angular-work.png" alt="" style="max-width: 35rem; width: 100%;"></div>
-                <div class="col-sm-6">
-                    <div class="h3 text-light font-weight-light">Angular web development</div>
+            <div id="web-dev" class="row" style="height: 100vh !important;">
+                <div class="col-sm-6 text-right align-self-center"><img src="assets/img/angular-work.png" alt="" style="max-width: 35rem; width: 100%;"></div>
+                <div class="col-sm-6 align-self-center">
+                    <h2 class="text-light font-weight-light mb-3">Angular web development</h2>
                     <p class="h5 text-light font-weight-light">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda fugiat odio inventore neque rem alias facere, amet totam velit sit exercitationem quas, eos minus omnis! Omnis inventore nostrum suscipit consectetur.
+                        I create custom web pages using modern equipment and technology that helps build interactive and dynamic single page applications (SPAs) with its compelling features.
                     </p>
+                    <a href="#mobile-dev">To mobile dev</a>
                 </div>
             </div>
-            <div class="row" style="margin-top: 10rem;">
-                <div class="col-sm-6 text-right"><img src="assets/img/android-work.png" alt="" style="max-width: 35rem; width: 100%;"></div>
-                <div class="col-sm-6">
-                    <div class="h3 text-light font-weight-light">Mobile development</div>
+            <div id="mobile-dev" class="row" style="height: 100vh;">
+                <div class="align-self-center col-sm-6 text-right"><img src="assets/img/android-work.png" alt="" style="max-width: 35rem; width: 100%;"></div>
+                <div class="align-self-center col-sm-6">
+                    <h2 class="text-light font-weight-light mb-3">Mobile development</h2>
                     <p class="h5 text-light font-weight-light">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda fugiat odio inventore neque rem alias facere, amet totam velit sit exercitationem quas, eos minus omnis! Omnis inventore nostrum suscipit consectetur.
+                        I practice building hybrid mobile apps using Ionic (using Angular). This allows the application to enter the market in the shortest possible time.
                     </p>
+                    <a href="" class="text-light">more</a>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="#footer" class="text-light h2">Contacts</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <div id="footer">
+        download my cv - <a href="assets/CV.pdf" target="_blank">download</a>
+    </div>
 </body>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script> -->
 <script src="script/particles.min.js"></script>
 <script src="script/app.js"></script>
 
