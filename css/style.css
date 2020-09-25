@@ -93,3 +93,15 @@ header .intro .highlight {
     background: rgb(32, 121, 163);
     background: linear-gradient(180deg, rgba(32, 121, 163, 1) 23%, rgba(0, 168, 245, 1) 100%);
 }
+
+.down-link-anchor {
+    color: white;
+    text-transform: lowercase;
+    font-family: 'Consolas', Times, serif;
+}
+
+.down-link-anchor :hover {
+    color: white;
+    text-transform: lowercase;
+    font-family: 'Consolas', Times, serif;
+}
